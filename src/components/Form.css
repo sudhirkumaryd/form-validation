@@ -1,0 +1,128 @@
+/* Form container */
+.form-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Form heading */
+.form-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+/* Form sections */
+.form-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Individual form groups */
+.form-group {
+  flex: 1 1 calc(50% - 10px); /* Two columns layout */
+}
+
+/* Labels */
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Input fields and select dropdown */
+.form-input,
+.form-select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+/* Error text for validation */
+.error-text {
+  color: red;
+  font-size: 0.875rem;
+
+}
+.submit-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #28a745;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.toggle-password{
+  background-color: #28a745;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 2px;
+}
+
+
+
+/* ---------------------------------------------success------------------------------------------ */
+
+/* Container for the success message */
+.success-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #28a745;
+  border-radius: 10px;
+  background-color: #e9ffe9;
+  text-align: center;
+  box-shadow: 5px 5px 10px #155724;
+}
+
+/* Title of the success message */
+.success-title {
+  color: #28a745;
+  margin-bottom: 20px;
+  font-size: 3em;
+}
+
+/* Subtitle of the success message */
+.success-subtitle {
+  color: #155724;
+  margin-bottom: 15px;
+  font-size: 2em;
+}
+
+/* Container for the details */
+.success-details {
+  text-align: left;
+  margin-top: 20px;
+  
+}
+
+/* Each detail line */
+.success-detail {
+  color: #155724;
+  margin: 5px 0;
+  font-size: 1.5em;
+
+}
+
+/* Bold text for detail labels */
+.success-detail strong {
+  font-weight: bold;
+  margin: 5px;
+}
