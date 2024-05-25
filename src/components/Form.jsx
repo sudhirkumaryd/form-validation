@@ -136,8 +136,7 @@ const Form = () => {
               type="button"
               onClick={() => setShowPassword(!showPassword)}
             >
-            {showPassword ? Hide : Show}
-             
+              Show/Hide
             </button>
             {errors.password && (
               <span className="error-text">{errors.password}</span>
